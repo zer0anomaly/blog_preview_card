@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(47, 88%, 63%);
+}
+.firstdiv {
+  width: 380px;
+  height: 525px;
+  background-color:hsl(0, 0%, 100%);
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 0px black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+.divforimage {
+  width: 380px;
+  height: 250px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+}
+.topimage {
+  max-width: 100%;
+  border-radius: 30px;
+  padding: 20px;
+}
+.content {
+  width: 380px;
+  height: 280px;
+  border-radius: 20px;
+  background-color: white;
+  position: relative;
+}
+.learning {
+  color: black;
+  position: relative;
+  left: 25px;
+  top: -20px;
+  display: inline-block;
+  padding: 7px 11px;
+  border: 1px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.publishdate {
+  color: black;
+  position: relative;
+  left: 25px;
+  top: -35px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.foundations {
+  color: black;
+  position: relative;
+  left: 25px;
+  top: -35px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 25px;
+}
+.explanation {
+  color: hsl(0, 0%, 42%);
+  position: relative;
+  left: 21px;
+  top: -39px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 5px; 
+}
+.secondimage {
+  position: relative;
+  left: 21px;
+  top: -35px;
+  width: 37px;
+  height: 37px;
+}
+.name {
+  color: black;
+  position: relative;
+  left: 75px;
+  top: -80px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 15px;
+}
+
+
